@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu Responsivo</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <!-- Sección del Menú  -->
+        <header class="header">
+            <section class="container">
+                <div class="logo">
+                    <a href="#">Iván Mestra</a>
+                </div>
+                <button class="menu__btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+                    <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
+                </button>
+                <nav class="menu">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#acerca">Sobre mi</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#hobbies">Hobbies</a>
+                    <a href="#formacion">Formación</a>
+                    <a href="#xp">Experiencia</a>
+                    <a href="#contacto">ivandariomj@hotmail.com</a>
+                </nav>
+            </section>
+        </header>
+        <!-- Sección del Inicio/Title/Hero -->
+        <section id="inicio" class="inicio__title">
+            <div class="inicio__div">
+                <div class="inicio__circle">
+                    <div class="inicio__circle__img">
+                        <img class="inicio__profile" src="./assets/perfil.png">
+                    </div>
+                </div>
+                <div class="inicio__container">
+                    <h2 class="inicio__bio">Hola, me llamo Iván Dario Mestra Julio, y soy desarrollador Web</h2>
+                    <h3 class="inicio__subsection">Tecnologo en Sistemas desde hace 5 años y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                    <ul class="inicio__network">
+                        <!-- Pon los enlaces de tus redes sociales favoritas -->
+                        <li class="inicio__network__item"><a href="https://github.com/Mestra18" target="_blank" rel="noopener noreferrer"><img class="network__icon" src="./assets/github.png"> </a></li>
+                        <li class="inicio__network__item"><a href="https://www.linkedin.com/feed/" target="_blank"><img class="network__icon" src="./assets/linkedin.png"></a></li>
+                        <li class="inicio__network__item"><a href="https://www.instagram.com/mestra_18/?hl=es-la" target="_blank"><img class="network__icon" src="./assets/instagram.png"></a></li>
+                        <li class="inicio__network__item"><a href="./assets/HOJA DE VIDA IVANM.pdf" target="_blank"><img class="network__icon" src="./assets/curriculum.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Sección sobre mi -->
+        <section id="acerca" class="about">
+            <div>
+                <img class="about__imagen" src="./assets/lenguajes.png" alt="Logos de lenguajes de programación">
+            </div>
+            <div class="about__container">
+                <h3 class="about__title">Sobre mi</h3>
+                <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
+                <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+                <!-- Si quieres, pon tú firma acá! -->
+                <img src="./assets/signature.png">
+            </div>
+        </section>
+        <!-- Sección de Skills -->
+        <section class="skills" id="skills">
+            <h3 class="skills__title">Skills</h3>
+            <div class="skills__line">
+                <div class="skills__box">
+                    <ul class="skills__box__ul">
+                        <li class="skills__img"><img src="./assets/htlm.png"></li>
+                        <li class="skills__name"> HTML 5</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul class="skills__box__ul">
+                        <li class="skills__img"> <img src="./assets/js_icon.png" alt=""></li>
+                        <li class="skills__name">Javascript</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul class="skills__box__ul">
+                        <li class="skills__img"> <img src="./assets/php_icon.png" alt=""></li>
+                        <li class="skills__name">PHP</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul class="skills__box__ul">
+                        <li class="skills__img"><img src="./assets/nodejs_icon.png" alt=""></li>
+                        <li class="skills__name">Node JS</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul class="skills__box__ul">
+                        <li class="skills__img"> <img src="./assets/react_icon.png" alt=""> </li>
+                        <li class="skills__name">React</li>
+                    </ul>
+                </div>
+                <div class="skills__box">
+                    <ul class="skills__box__ul">
+                        <li class="skills__img"> <img src="./assets/css_icon.png" alt=""> </li>
+                        <li class="skills__name">CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Hobbies -->
+        <section class="hobbies" id="hobbies">
+            <h3 class="hobbies__title">Hobbies</h3>
+            <div class="hobbies__line">
+                <div class="hobbies__box">
+                    <ul class="hobbies__box__ul">
+                        <li class="hobbies__img"><img src="./assets/skate_icon.png"></li>
+                        <li class="hobbies__name"> Patinaje</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul class="hobbies__box__ul">
+                        <li class="hobbies__img"> <img src="./assets/guitar_icon.png" alt=""></li>
+                        <li class="hobbies__name">Tocar bajo</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul class="hobbies__box__ul">
+                        <li class="hobbies__img"> <img src="./assets/headphones_icon.png" alt=""></li>
+                        <li class="hobbies__name">Oir música</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul class="hobbies__box__ul">
+                        <li class="hobbies__img"><img src="./assets/tv_icon.png" alt=""></li>
+                        <li class="hobbies__name">Ver séries</li>
+                    </ul>
+                </div>
+
+                <div class="hobbies__box">
+                    <ul class="hobbies__box__ul">
+                        <li class="hobbies__img"> <img src="./assets/forkspoon_icon.png" alt=""> </li>
+                        <li class="hobbies__name">Cocinar</li>
+                    </ul>
+                </div>
+                <div class="hobbies__box">
+                    <ul class="hobbies__box__ul">
+                        <li class="hobbies__img"> <img src="./assets/camera_icon.png" alt=""> </li>
+                        <li class="hobbies__name">Tomar fotos</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Formación académica -->
+        <section class="academic" id="formacion">
+            <h2 class="academic__title" >Formación Académica</h2>
+            <div class="academic__courses">
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!-- Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item"><img class="academic__courses__item__img" src="./assets/ufpr_logo.png"></li>
+                        <li class="academic__courses__item"><h4 class="academic__courses__item__title">Análisis de datos</h4></li>
+                        <li class="academic__courses__item"><p class="academic__courses__item__subtitle">2018 - UFPR</p></li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!--Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item"><img class="academic__courses__item__img" src="./assets/alura_logo.png"></li>
+                        <li class="academic__courses__item"><h4 class="academic__courses__item__title">Formación en UX Design</h4></li>
+                        <li class="academic__courses__item"><p class="academic__courses__item__subtitle">2019 - Alura</p></li>
+                    </ul>
+                </div>
+                <div class="academic__courses__box">
+                    <ul class="academic__courses__list">
+                        <!-- Pon el logotipo de la institución de formación -->
+                        <li class="academic__courses__item"><img class="academic__courses__item__img" src="./assets/ufrj_logo.png"></li>
+                        <li class="academic__courses__item"><h4 class="academic__courses__item__title">Posgrado en diseño</h4></li>
+                        <li class="academic__courses__item"><p class="academic__courses__item__subtitle">En curso - UFRJ</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Sección de Experiencia Profesional/Proyectos-->
+        <section class="experience" id="xp">
+        <h2 class="experience__title--ppal">Experiencia Profisional</h2>
+        <div class="experiencie__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="./assets/encriptado_1.PNG">
+            <div class="experience__info">
+                <h2 class="experience__title">Encriptador de texto</h2>
+                <h3 class="experience__text">Oracle Challenge Alura Latam</h3>
+                <div class="experience__btns">
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                    <a href="https://github.com/Mestra18/Challenge1" target="_blank" class="experience__enlace">
+                        <button class="experience__btn">Repositorio</button>
+                    </a>
+                    <a href="https://mestra18.github.io/Challenge1/" target="_blank" class="experience__enlace">
+                        <button class="experience__btn">Ver Demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>  
+        <div class="experiencie__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="./assets/ahorcado.PNG">
+            <div class="experience__info">
+                <h2 class="experience__title">Juego Ahorcado</h2>
+                <h3 class="experience__text">Oracle Challenge Alura Latam </h3>
+                <div class="experience__btns">
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                    <a href="https://github.com/Mestra18/Challenge2" target="_blank" class="experience__enlace">
+                        <button class="experience__btn">Repositorio</button>
+                    </a>
+                    <a href="https://mestra18.github.io/Challenge2/" target="_blank" class="experience__enlace">
+                        <button class="experience__btn">Ver Demo</button>
+                    </a>
+                </div>
+            </div>
+        </div> 
+        <div class="experiencie__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="./assets/ahorcado.PNG">
+            <div class="experience__info">
+                <h2 class="experience__title">Juego Ahorcado</h2>
+                <h3 class="experience__text">Oracle Challenge Alura Latam </h3>
+                <div class="experience__btns">
+                    <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                    <a href="https://github.com/Mestra18/Challenge2" target="_blank" class="experience__enlace">
+                        <button class="experience__btn">Repositorio</button>
+                    </a>
+                    <a href="https://mestra18.github.io/Challenge2/" target="_blank" class="experience__enlace">
+                        <button class="experience__btn">Ver Demo</button>
+                    </a>
+                </div>
+            </div>
+        </div>  
+        <div class="experiencie__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="./assets/ahorcado.PNG">
+            <div class="experience__info">
+                <h2 class="experience__title">Juego Ahorcado</h2>
+                <h3 class="experience__text">Oracle Challenge Alura Latam </h3>
+                    <div class="experience__btns">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <a href="https://github.com/Mestra18/Challenge2" target="_blank" class="experience__enlace">
+                                <button class="experience__btn">Repositorio</button>
+                            </a>
+                            <a href="https://mestra18.github.io/Challenge2/" target="_blank" class="experience__enlace">
+                                <button class="experience__btn">Ver Demo</button>
+                            </a>
+                    </div>
+            </div>
+        </div>  
+        </section>
+        <!-- Sección de Contacto -->
+        <section class="formcontato" id="contacto">
+            <div  class="formcontato__contacto">
+                <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="./assets/contact.png">
+                </div>
+            </div>
+                <div class="formcontato__text">
+                    <h2 class="formcontato__title">Contacto</h2>
+                    <div class="subtext">
+                        <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                        <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
+                    </div>                
+                    <form class="formcontato__form" name="form">
+                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required>
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
+                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" required>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required></textarea>
+                    </form>
+                    <div class="formcontato__btn">
+                        <a href="#" class="experience__enlace">
+                            <button class="experience__btn">Enviar</button>
+                        </a>
+                    </div>
+                </div>
+        </section>
+        <!-- Sección de Footer -->
+        <footer class="footer">
+            <div class="footer__rodape">
+                <p class="footer__text">Sitio diseñado por <span class="footer__autor">@ivanmestra</span> - Copyright © Todos los derechos reservados 2022.</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
